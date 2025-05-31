@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>My Portfolio</h1>
+            <p>Welcome to my portfolio! I'm excited to share my projects and journey with you.</p>
+        </div>
+        <nav>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="skills">
+                <h2>My&nbsp;&nbsp;<span>Skills.</span></h2>
+                <section class="skill-container">
+                    <div class="skill-list">
+                        <img src="Assets/Illustrations/web-illustration.svg" alt="web-illustration">
+                        <h3>Languages</h3>
+                        <div class="skill-logo">
+                            <i class='bx bxl-python' ></i>
+                            <i class='bx bxl-javascript' ></i>
+                        </div>
+                    </div>
+                    <div class="skill-list">
+                        <img src="Assets/Illustrations/pull-request-illustration.svg" alt="pull-request-illustration">
+                        <h3>Version Control</h3>
+                        <div class="skill-logo">
+                            <i class='bx bxl-git' ></i>
+                            <i class='bx bxl-github' ></i>
+                        </div>
+                    </div>
+                    <div class="skill-list">
+                        <img src="Assets/Illustrations/design-illustration.svg" alt="design-illustration">
+                        <h3>Design Tools</h3>
+                        <div class="skill-logo">
+                            <i class='bx bxl-adobe' ></i>
+                            <i class='bx bxl-blender' ></i>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article id="projects">
+                <h2>My&nbsp;&nbsp;<span>Projects.</span></h2>
+                <section class="project-container">
+                    <img src="Assets/Images/project-1.png" alt="weather-app-project">
+                    <div class="project-text">
+                        <h3>Weather App Project</h3>
+                        <p>
+                            A simple desktop application built in Python with PyQt5 that lets users fetch and display current weather conditions for any city. It queries the OpenWeatherMap API, shows temperature in Fahrenheit, displays a contextual weather emoji, and provides a short description of the conditions.
+                        </p>
+                        <a href="https://github.com/Bama2262/Weather-App-Project" target="_blank" class="btn-project">See Details</a>
+                    </div>
+                </section>
+                <section class="project-container">
+                    <img src="Assets/Images/project-2.png" alt="stopwatch-project">
+                    <div class="project-text">
+                        <h3>Stopwatch Project</h3>
+                        <p>
+                            Stopwatch-Project is a lightweight desktop stopwatch application written in Python with a PyQt5 graphical interface. It allows users to track elapsed time with centisecond (0.01s) precision through an intuitive, responsive window.
+                        </p>
+                        <a href="https://github.com/Bama2262/Stopwatch-Project" target="_blank" class="btn-project">See Details</a>
+                    </div>
+                </section>
+                <section class="project-container">
+                    <img src="Assets/Images/" alt="proses">
+                    <div class="project-text">
+                        <h3>Proses</h3>
+                        <p>
+                            Proses
+                        </p>
+                        <a href="proses" target="_blank" class="btn-project">See Details</a>
+                    </div>
+                </section>
+            </article>
+        </div>
+
+        <aside id="biography">
+            <section class="biography">
+                <h2>Biography</h2>
+                <img src="Assets/Images/profile.jpg" alt="handsome-guy">
+                <p>I am Bama, a student from SMK Negeri 1 Cianjur who has a great interest in technology. Currently, I focus on learning web development, exploring python & javascript, and I enjoy making beginner projects.</p>
+            </section>
+            <section class="social">
+                <a href="https://www.instagram.com/bama.2262_?igsh=MXZ2N2k2azk0MXFnaQ=="><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/bama-maulana-wibisana-604625328/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Bama2262"><i class='bx bxl-github'></i></a>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 All rights reserved.</p>
+        <p>Designed by <a href="#">Bama Maulana Wibisana</a></p>
+    </footer>
+</body>
+</html>
