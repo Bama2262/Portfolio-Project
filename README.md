@@ -1,2 +1,2 @@
 # Portfolio-Project
-This repository contains personal portfolio projects developed using HTML and CSS. The purpose of these projects is to showcase my skills and experience in web development, as well as provide a platform to share information about myself and my work.
+Portfolio Project contains personal portfolio projects developed using HTML and CSS. The purpose of these projects is to showcase my skills and experience in web development, as well as provide a platform to share information about myself and my work.
