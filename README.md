@@ -27,7 +27,6 @@ This repository contains the source code for my personal web portfolio, where I 
 - HTML5
 - CSS3
 - JavaScript (optional)
-- [Add other tools or libraries if used, e.g., Bootstrap, AOS]
 
 ---
 
@@ -57,7 +56,7 @@ This repository contains the source code for my personal web portfolio, where I 
 ## 📌 Status
 
 **🚧 Work in Progress**
-I am actively building and improving this project as part of my frontend development learning journey.
+> I am actively building and improving this project as part of my frontend development learning journey.
 
 ---
 
